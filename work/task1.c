@@ -22,7 +22,7 @@ static int compare (const void *a, const void *b)
     }
 }
 
-void lineSort(char *str[], int size)
+void lineSort(const char *str[], int size)
 {
 //    здесь мы с помощью функции   qsort сортируем каждую из строк по увеличению для этого в строке 17 мы добираемся до каждой из строк и сортируем их по длине с помощью вот этой конструкции strlen(*(char **) a)
     

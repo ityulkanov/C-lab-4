@@ -7,7 +7,7 @@
 //
 #include <stdio.h>
 
-void lineSort(char *str[], int size);
+void lineSort(const char *str[], int size);
 void printLines(const char *str[], int size);
 
 
