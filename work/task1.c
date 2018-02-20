@@ -37,3 +37,9 @@ void printLines(const char *str[], int size)
         printf("line %d is : %s", i, str[i]);
     }
 }
+
+void printLinesToFile (char *str[], int size, FILE *fp) {
+    for (int i = 0 ; i < size; i++) {
+        fprintf(fp, "%s\n", str[i]);
+    }
+}

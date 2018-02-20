@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "task4.h"
+#include "task1.h"
 
 int main() {
     char buf[N][M];
